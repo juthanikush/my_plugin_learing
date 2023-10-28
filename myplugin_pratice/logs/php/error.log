@@ -1,0 +1,608 @@
+[24-Sep-2023 06:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_admin() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php:3
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php(23): require_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\plugin.php(2318): include_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('my-plugin/my_pl...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\plugins.php(58): activate_plugin('my-plugin/my_pl...', 'http://myplugin...', false)
+#4 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php on line 3
+[24-Sep-2023 06:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_admin() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php:3
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php(23): require_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\plugin.php(2318): include_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('my-plugin/my_pl...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php on line 3
+[24-Sep-2023 06:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_admin() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php:3
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php(23): require_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\plugin.php(2318): include_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('my-plugin/my_pl...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php on line 3
+[24-Sep-2023 09:08:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "MYPLUGIN_URI" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php:9
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_admin_styles_scripts('plugins.php')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\plugins.php(605): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php on line 9
+[24-Sep-2023 10:30:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_scteen() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php:40
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(312): myplugin_update_movie_title_placeholder('Add title')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Add title', Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\edit-form-blocks.php(196): apply_filters('enter_title_her...', 'Add title', Object(WP_Post))
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\post-new.php(72): require('D:\\wordpress_th...')
+#4 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 40
+[24-Sep-2023 11:21:03 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:42
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(22): require_once('D:\\wordpress_th...')
+#4 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:08 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:42
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\options-permalink.php(10): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:08 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/taxonomy.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:42
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(13): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:39 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/movie-taxonomy.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/movie-taxonomy.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:42
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\options-permalink.php(10): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:39 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/movie-taxonomy.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[24-Sep-2023 11:21:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/taxonomy/movie-taxonomy.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:42
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(13): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 42
+[25-Sep-2023 15:57:32 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[25-Sep-2023 16:29:07 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\metaboxes\movie-metaboxes.php on line 80
+[25-Sep-2023 16:42:11 UTC] PHP Warning:  Undefined variable $value in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\metaboxes\movie-metaboxes.php on line 98
+[25-Sep-2023 16:42:12 UTC] PHP Warning:  Undefined variable $value in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\metaboxes\movie-metaboxes.php on line 98
+[07-Oct-2023 12:17:27 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[07-Oct-2023 12:33:04 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/data-tables/movie-data-tables.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 52
+[07-Oct-2023 12:33:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/data-tables/movie-data-tables.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:52
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\edit.php(10): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 52
+[07-Oct-2023 13:50:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "release_year" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php:30
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): output_column_content('release_year', 11)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-posts-list-table.php(1387): do_action('manage_movie_po...', 'release_year', 11)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-list-table.php(1752): WP_Posts_List_Table->column_default(Object(WP_Post), 'release_year')
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-posts-list-table.php(1421): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-posts-list-table.php(829): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-posts-list-table.php(805): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-list-table.php(1662): WP_Posts_List_Table->display_rows()
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\class-wp-list-table.php(1589): WP_List_Table->display_rows_or_placeholder()
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\edit.php(495): WP_List_Table->display()
+#11 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php on line 30
+[18-Oct-2023 04:06:59 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[18-Oct-2023 04:11:03 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php on line 53
+[18-Oct-2023 04:55:48 UTC] PHP Warning:  Undefined variable $uery in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php on line 61
+[18-Oct-2023 04:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_main_uery() on null in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php:61
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_movie_columns_sorting_logic(Object(WP_Query))
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-query.php(3800): WP_Query->get_posts()
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-query.php(3932): WP_Query->query(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\block-template-utils.php(1002): WP_Query->__construct(Array)
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\blocks\template-part.php(232): get_block_templates(Array, 'wp_template_par...')
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\blocks\template-part.php(272): build_template_part_block_instance_variations()
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\blocks\template-part.php(285): build_template_part_block_variations()
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): register_block_core_template_part('')
+#11 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(632): do_action('init')
+#14 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#15 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#16 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#17 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(10): require_once('D:\\wordpress_th...')
+#18 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\data-tables\movie-data-table.php on line 61
+[18-Oct-2023 04:56:23 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[18-Oct-2023 05:12:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "myplugin_custom_menu_template_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:14:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "myplugin_custom_menu_template_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:16:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "myplugin_custom_menu_template_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:20:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "c" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:20:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "c" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:20:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "c" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 05:49:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "myplugin_custom_submenu_template_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('custom-menu_pag...')
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php on line 310
+[18-Oct-2023 07:12:28 UTC] PHP Fatal error:  Cannot redeclare myplugin_custom_link_template_callback() (previously declared in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\menus\menus.php:68) in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\menus\menus.php on line 76
+[18-Oct-2023 07:12:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_sunmenu_page() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\menus\menus.php:33
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_custom_admin_menu('')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\menu.php(420): require_once('D:\\wordpress_th...')
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(158): require('D:\\wordpress_th...')
+#6 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\menus\menus.php on line 33
+[18-Oct-2023 11:35:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_settings_section(), 0 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 37 and at least 4 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php:1622
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(37): add_settings_section()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_init('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php on line 1622
+[18-Oct-2023 11:37:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_settings_section(), 0 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 37 and at least 4 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php:1622
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(37): add_settings_section()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_init('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php on line 1622
+[18-Oct-2023 11:39:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_setting(), 1 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 46 and at least 2 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php:2374
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(46): register_setting('')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_init('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php on line 2374
+[18-Oct-2023 11:40:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_setting(), 1 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 46 and at least 2 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php:2374
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(46): register_setting('')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_init('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php on line 2374
+[18-Oct-2023 11:41:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_setting(), 1 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 46 and at least 2 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php:2374
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(46): register_setting('')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_init('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\option.php on line 2374
+[18-Oct-2023 12:09:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function do_settings_sections(), 0 passed in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 31 and exactly 1 expected in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php:1750
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(31): do_settings_sections()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php on line 1750
+[21-Oct-2023 07:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reister_style() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php:9
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_admin_styles_scripts('toplevel_page_m...')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'toplevel_page_m...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(239): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\admin\admin.php on line 9
+[21-Oct-2023 11:07:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:08:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:10:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:246
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 246
+[21-Oct-2023 11:14:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:258
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 258
+[21-Oct-2023 11:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:258
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 258
+[21-Oct-2023 11:14:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:258
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 258
+[21-Oct-2023 11:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:259
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 259
+[21-Oct-2023 11:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_urlisset() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php:259
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1824): myplugin_settings_image_uploader_field_callback(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1778): do_settings_fields('myplugin-settin...', 'myplugin_settin...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php(42): do_settings_sections('myplugin-settin...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): myplugin_settings_template_callback('')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#7 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\settings\settings.php on line 259
+[21-Oct-2023 11:42:35 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 11:43:03 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 11:43:09 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 11:43:09 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 11:44:39 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 12:05:48 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:05:29 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:31 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:31 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:31 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:05:35 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:35 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:35 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:05:43 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:43 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:43 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:05:44 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:44 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:55 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:05:55 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:05 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:05 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:05 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:06:12 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:12 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:21 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:21 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:21 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:06:30 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:30 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:36 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:36 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:36 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:06:46 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:46 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:48 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:48 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:06:48 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:14:14 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:14:14 UTC] PHP Warning:  Undefined variable $content in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 10
+[21-Oct-2023 13:16:15 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:23:19 UTC] PHP Fatal error:  Cannot redeclare myplugin_get_posts_shortcode() (previously declared in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php:34) in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\shortcodes\shortcodes.php on line 47
+[21-Oct-2023 13:29:34 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:29:43 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:29:45 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:29:46 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:30:20 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:30:39 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:30:39 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:30:48 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:31:16 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[21-Oct-2023 13:31:38 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:19:26 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:19:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "myplugin_movie_glance_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php:1443
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\dashboard.php(271): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(203): wp_dashboard()
+#2 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php on line 1443
+[23-Oct-2023 16:20:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "myplugin_movie_glance_callback" not found or invalid function name in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php:1443
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\dashboard.php(271): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(203): wp_dashboard()
+#2 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php on line 1443
+[23-Oct-2023 16:21:03 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:24:04 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:26:26 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\dashboard\widgets.php:26
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\template.php(1443): myplugin_movie_glance_callback('', Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\includes\dashboard.php(274): do_meta_boxes(Object(WP_Screen), 'side', '')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(203): wp_dashboard()
+#3 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\dashboard\widgets.php on line 26
+[23-Oct-2023 16:26:58 UTC] PHP Warning:  Undefined property: stdClass::$darft in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\dashboard\widgets.php on line 29
+[23-Oct-2023 16:26:58 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:27:37 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:35:38 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:35:46 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[23-Oct-2023 16:35:51 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[28-Oct-2023 06:17:10 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widgets.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widgets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:76
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(10): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:11 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widgets.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widgets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:76
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(13): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:32 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widget.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widget.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:76
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(10): require_once('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:33 UTC] PHP Warning:  require_once(D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widget.php): Failed to open stream: No such file or directory in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:17:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin//inc/wordpress/movie-widget.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php:76
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(462): include_once()
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(13): require_once('D:\\wordpress_th...')
+#4 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#5 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\my_plugin.php on line 76
+[28-Oct-2023 06:18:07 UTC] PHP Fatal error:  Uncaught Error: Class "Myplugin_Movie_Widget" not found in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Myplugin_Movie_...')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php(66): register_widget('Myplugin_Movie_...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): register_myplugin_movie_widget('')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\widgets.php(1858): do_action('widgets_init')
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): wp_widgets_init('')
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(632): do_action('init')
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#11 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#12 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\admin.php(34): require_once('D:\\wordpress_th...')
+#13 D:\wordpress_themes\myplugin_pratice\app\public\wp-admin\index.php(10): require_once('D:\\wordpress_th...')
+#14 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-widget-factory.php on line 62
+[28-Oct-2023 06:18:08 UTC] PHP Fatal error:  Uncaught Error: Class "Myplugin_Movie_Widget" not found in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Myplugin_Movie_...')
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php(66): register_widget('Myplugin_Movie_...')
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): register_myplugin_movie_widget('')
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\widgets.php(1858): do_action('widgets_init')
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): wp_widgets_init('')
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-settings.php(632): do_action('init')
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-config.php(103): require_once('D:\\wordpress_th...')
+#11 D:\wordpress_themes\myplugin_pratice\app\public\wp-load.php(50): require_once('D:\\wordpress_th...')
+#12 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(13): require_once('D:\\wordpress_th...')
+#13 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#14 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-widget-factory.php on line 62
+[28-Oct-2023 06:19:17 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[28-Oct-2023 06:19:56 UTC] PHP Warning:  Undefined variable $title in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\post-types\movie.php on line 45
+[28-Oct-2023 06:25:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function essc_attr() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php:48
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(577): Myplugin_Movie_Widget->form(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(516): WP_REST_Widget_Types_Controller->get_widget_form(Object(Myplugin_Movie_Widget), Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(1194): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api.php(418): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp.php(779): WP->parse_request('')
+#11 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\functions.php(1335): WP->main('')
+#12 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(16): wp()
+#13 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#14 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 48
+[28-Oct-2023 06:25:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function essc_attr() in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php:48
+Stack trace:
+#0 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(577): Myplugin_Movie_Widget->form(Array)
+#1 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(516): WP_REST_Widget_Types_Controller->get_widget_form(Object(Myplugin_Movie_Widget), Array)
+#2 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(1194): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#3 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#4 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\rest-api.php(418): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#6 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#7 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#10 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\class-wp.php(779): WP->parse_request('')
+#11 D:\wordpress_themes\myplugin_pratice\app\public\wp-includes\functions.php(1335): WP->main('')
+#12 D:\wordpress_themes\myplugin_pratice\app\public\wp-blog-header.php(16): wp()
+#13 D:\wordpress_themes\myplugin_pratice\app\public\index.php(17): require('D:\\wordpress_th...')
+#14 {main}
+  thrown in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 48
+[28-Oct-2023 06:27:35 UTC] PHP Warning:  Undefined array key "title" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 17
+[28-Oct-2023 06:27:35 UTC] PHP Warning:  Undefined array key "limit" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 22
+[28-Oct-2023 06:27:35 UTC] PHP Warning:  Undefined array key "title" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 17
+[28-Oct-2023 06:27:35 UTC] PHP Warning:  Undefined array key "limit" in D:\wordpress_themes\myplugin_pratice\app\public\wp-content\plugins\my-plugin\inc\widgets\movie-widget.php on line 22
